@@ -5,12 +5,12 @@ A quick Java based SBV to TTAF caption file conversion tool.
 ## Installation
 You will need to have Java installed on your machine to run this tool. Java can be downloaded from [here](https://java.com/en/download/)
 
-Clone this repository, or download it as a ZIP file. This repository contains all of the source code as well as unit tests needed to edit or augment the code, but a compile JAR is also available to run a simple conversion.
+Clone this repository, or download it as a ZIP file. This repository contains all of the source code as well as unit tests needed to edit or augment the code, but a compiled JAR is also available to run a simple conversion.
 
 ## Usage
 The runnable JAR file expects two arguments:
-1. The path to the SBV file
-2. The path to the new TTAF file
+* The path to the SBV file
+* The path to the new TTAF file
 
 Optionally, a third *debug* parameter can be passed to output additional transformation details to the console.
 
