@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>clement.guillaume</groupId>
 	<artifactId>sbv-to-ttaf</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 
     <scm>
         <connection>scm:git:https://github.com/guillaumecleme/sbv-to-ttaf</connection>
