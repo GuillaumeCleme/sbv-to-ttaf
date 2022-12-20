@@ -5,6 +5,19 @@
 	<artifactId>sbv-to-ttaf</artifactId>
 	<version>0.0.1</version>
 
+    <scm>
+        <connection>scm:git:https://github.com/guillaumecleme/sbv-to-ttaf</connection>
+    </scm>
+
+    <!-- https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages -->
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub GuillaumeCleme Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/guillaumecleme/sbv-to-ttaf</url>
+        </repository>
+    </distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
